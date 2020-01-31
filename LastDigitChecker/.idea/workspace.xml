@@ -1,19 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="867835d2-0e28-4718-a981-91afbce9b76a" name="Default Changelist" comment="" />
+    <list default="true" id="867835d2-0e28-4718-a981-91afbce9b76a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LastDigitChecker/com/dougsewell/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LastDigitChecker/com/dougsewell/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dougsewell/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dougsewell/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1X8dDYnUtieGWvP9QPXAiaWl4t8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunManager">
@@ -47,29 +58,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="918" height="253" key="GridCell.Tab.0.bottom" timestamp="1580436516952">
+    <state width="918" height="253" key="GridCell.Tab.0.bottom" timestamp="1580437176079">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="918" height="253" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1580436516952" />
-    <state width="918" height="253" key="GridCell.Tab.0.center" timestamp="1580436516951">
+    <state width="918" height="253" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1580437176079" />
+    <state width="918" height="253" key="GridCell.Tab.0.center" timestamp="1580437176078">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="918" height="253" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1580436516951" />
-    <state width="918" height="253" key="GridCell.Tab.0.left" timestamp="1580436516950">
+    <state width="918" height="253" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1580437176078" />
+    <state width="918" height="253" key="GridCell.Tab.0.left" timestamp="1580437176078">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="918" height="253" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1580436516950" />
-    <state width="918" height="253" key="GridCell.Tab.0.right" timestamp="1580436516951">
+    <state width="918" height="253" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1580437176078" />
+    <state width="918" height="253" key="GridCell.Tab.0.right" timestamp="1580437176079">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="918" height="253" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1580436516951" />
+    <state width="918" height="253" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1580437176079" />
     <state x="934" y="189" width="986" height="742" key="SettingsEditor" timestamp="1580432223436">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="934" y="189" width="986" height="742" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1580432223436" />
-    <state x="1206" y="383" key="com.intellij.ide.util.TipDialog" timestamp="1580431545943">
+    <state x="1206" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1580437154665">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1206" y="383" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580431545943" />
+    <state x="1206" y="378" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1580437154665" />
   </component>
 </project>
