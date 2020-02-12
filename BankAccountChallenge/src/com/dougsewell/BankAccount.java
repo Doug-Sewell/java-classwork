@@ -7,6 +7,26 @@ public class BankAccount {
     private String emailAddress;
     private String phoneNumber;
 
+    public BankAccount() {
+        this(12345,2.50,"Default name",
+                "Default address", "Default phone");
+        System.out.println("Empty constructor called.");
+    }
+
+    public BankAccount(String customerName, String emailAddress, String phoneNumber) {
+        this(12345,100.55, customerName, emailAddress, phoneNumber);
+    }
+
+    public BankAccount(long accountNumber, double balance, String customerName,
+                       String emailAddress, String phoneNumber) {
+        System.out.println("Account constructor with parameters called. ");
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.emailAddress = emailAddress;
+        this.phoneNumber = phoneNumber;
+    }
+
 
     //Setters:
     public void setAccountNumber(long accountNumber) {
@@ -30,34 +50,35 @@ public class BankAccount {
 
     //Getters:
     public long getAccountNumber() {
-        return this.accountNumber;
+        return accountNumber;
     }
 
     public double getBalance() {
-        return this.balance;
+        return balance;
     }
 
     public String getCustomerName() {
-        return this.customerName;
+        return customerName;
     }
     public String getEmailAddress() {
-        return this.emailAddress;
+        return emailAddress;
     }
 
     public String getPhoneNumber() {
-        return this.phoneNumber;
+        return phoneNumber;
     }
 
     public void depositFunds(double deposit) {
         this.balance += deposit;
+        System.out.println("A deposit of " + deposit + " successful. New balance is " + balance);
     }
 
-    public void withdrawFunds(double withrawalAmount) {
-        if(this.balance < withrawalAmount) {
+    public void withdrawFunds(double withdrawalAmount) {
+        if(this.balance < withdrawalAmount) {
             System.out.println("Not enough funds.");
         } else {
-            this.balance -= withrawalAmount;
-            System.out.println("New balance: " + this.balance);
+            this.balance -= withdrawalAmount;
+            System.out.println("New balance: " + balance);
         }
     }
 }
