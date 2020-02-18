@@ -20,6 +20,4 @@ public class Cuboid extends Rectangle{
     public double getVolume() {
         return height*getArea();
     }
-
-
 }
