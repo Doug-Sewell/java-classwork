@@ -29,7 +29,7 @@ public class Hamburger {
         System.out.println("***************************************************************************");
     }
 
-    public void itemAddedConfirmation(String newTopping) {
+    private void itemAddedConfirmation(String newTopping) {
         System.out.println(newTopping + " has been added!");
         additionalItemCounter++;
     }
@@ -59,7 +59,7 @@ public class Hamburger {
         return (price + (additionalItemCounter*pricePerTopping));
     }
 
-    private boolean zeroCheck(double num) {
+    public boolean zeroCheck(double num) {
         return ((num*10 % 1 == 0));
     }
 
@@ -93,6 +93,30 @@ public class Hamburger {
                 }
             }
         }
+    }
+
+    public String getBreadRollType() {
+        return breadRollType;
+    }
+
+    public String getMeatType() {
+        return meatType;
+    }
+
+    public String getBurgerName() {
+        return burgerName;
+    }
+
+    public int getAdditionalItemCounter() {
+        return additionalItemCounter;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public double getPricePerTopping() {
+        return pricePerTopping;
     }
 
     public void burgerDetails() {
