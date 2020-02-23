@@ -46,6 +46,9 @@ public class HealthyBurger extends Hamburger {
 
     @Override
     public void burgerDetails() {
+        System.out.println("**********");
+        System.out.println("Thank you for your order!");
+        System.out.println("**********");
         System.out.println("Name: " + getBurgerName());
         System.out.println("Roll Type: " + getBreadRollType());
         System.out.println("Meat Type: " + getMeatType());

@@ -19,5 +19,11 @@ public class Main {
         WrigleysBurger.addTopping("Jalapenos");
         WrigleysBurger.addTopping("Lettuce"); //Prints error as a Healthy Hamburger.
         WrigleysBurger.burgerDetails();
+
+        DeluxeBurger AthenasBurger = new DeluxeBurger("Wheat","Ham",9,"Athena's Deluxe Burger");
+        AthenasBurger.addTopping("Bacon"); //Prints an error as deluxe burgers can't use toppings. Working as intended!
+        AthenasBurger.burgerDetails();
     }
+
+
 }
