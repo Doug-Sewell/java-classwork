@@ -16,7 +16,7 @@ public class Main {
             choice = scanner.nextInt();
             scanner.nextLine();
 
-
+System.out.println("Please add the user's name:");
             switch (choice) {
                 case 0:
                     printInstructions();
