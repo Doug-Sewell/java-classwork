@@ -6,33 +6,43 @@ public class Branch {
 
     private ArrayList<Customer> Customers = new ArrayList<Customer>();
 
-
-    //TO DO: Have the add customer functions call each other so that only the final method below
-    //needs to do the customer validation.
-
+    /*
+        Adding a customer.
+        Overloading depending on user's input to accept new customers in three different ways.
+     */
     public void addCustomer(String name) {
-        Customers.add(new Customer(name));
+        Customer customer = new Customer(name);
+        if(canAddCustomer(customer)) {
+            Customers.add(customer);
+        } else {
+            printDuplicateName();
+        }
     }
 
     public void addCustomer(String name, double transactionAmount) {
-        Customers.add(new Customer(name, transactionAmount));
+        Customer customer = new Customer(name,transactionAmount);
+        if(canAddCustomer(customer)) {
+            Customers.add(new Customer(name, transactionAmount));
+        } else {
+            printDuplicateName();
+        }
     }
 
     public void addCustomer(Customer NewCustomer) {
         if(canAddCustomer(NewCustomer)) {
             Customers.add(NewCustomer);
         } else {
-            System.out.println("Sorry, name has been taken.");
+            printDuplicateName();
         }
+    }
+
+    private void printDuplicateName() {
+        System.out.println("Sorry, name has been taken.");
     }
 
 
     /*
-    If the length of the customer ArrayList is zero, then there are no duplicates.
-    Code then runs through all names in the ArrayList of customers. If there are any duplicates,
-    we then return false as we don't want to add duplicate names.
-    If the code reaches the end of the ArrayList with no duplicates, function returns true
-    as it means we can add a new customer.
+        Checks through customers to see if the name already exists.
      */
     private boolean canAddCustomer(Customer testCustomer) {
         if(Customers.size() == 0) {
