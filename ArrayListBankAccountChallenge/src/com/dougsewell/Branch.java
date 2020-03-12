@@ -3,13 +3,23 @@ package com.dougsewell;
 import java.util.ArrayList;
 
 public class Branch {
-
+    private String branchName;
     private ArrayList<Customer> Customers = new ArrayList<Customer>();
 
     /*
         Adding a customer.
         Overloading depending on user's input to accept new customers in three different ways.
      */
+
+    public Branch(String branchName) {
+        this.branchName = branchName;
+    }
+
+    public String getBranchName() {
+        return branchName;
+    }
+
+
     public void addCustomer(String name) {
         Customer customer = new Customer(name);
         if(canAddCustomer(customer)) {
